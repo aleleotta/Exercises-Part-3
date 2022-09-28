@@ -13,6 +13,8 @@ public class Exercise4 {
 		homework = sc.nextBoolean();
 		System.out.println("Do you need to head to a library? ");
 		library = sc.nextBoolean();
+		System.out.println("Can I head out? ");
+		System.out.println("");
 		System.out.println(!rain && homework || library);
 		sc.close();
 	}
