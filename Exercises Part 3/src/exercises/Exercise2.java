@@ -10,14 +10,10 @@ public class Exercise2 {
 		age = sc.nextInt();
 		if (age >= 18) {
 			verification = true;
-		}
-		else {
-			verification = false;
-		}
-		if (verification = true) {
 			System.out.print("Congrats! You are an adult!");
 		}
 		else {
+			verification = false;
 			System.out.print("You´re currently not an adult. Access denied!");
 		}
 		sc.close();
